@@ -1,0 +1,133 @@
+.payment{
+    padding-top: 120px;
+    background-image: url(../Compo//Assets/backgroundpay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.payment-head{
+   background-color: #f07935;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;   
+    align-items: center;
+}
+.payment-head h1{
+    font-size: 35px;
+    color: white;
+    margin-left: 30px;
+}
+.bookdata-block{
+    display: block;
+    text-align: left;
+    background-color: white;
+    width :70%;
+    height:auto;
+     margin-bottom: 60px;
+}
+.bookdata-block p{
+    font-size: 20px;
+    margin-left: 50px;
+}
+.bookdata-block-content{
+    margin: 1em;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.bookdata-block-left{
+    margin: 0;
+    width: 30%;
+}
+.bookdata-block-right{
+    margin: 0;
+    width: 70%;
+}
+.payment-title{
+    background-color: #f07935;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;   
+    align-items: center;
+}
+.payment-title h1{
+        font-size: 35px;
+        color: white;
+        margin-left: 30px;
+}
+.payment-block{
+    display: block;
+    text-align: left;
+    background-color: white;
+    width :70%;
+    height:auto;
+     margin-bottom: 60px;
+}
+.payment-bank-detail{
+    padding: 10px;
+    display: flex;
+   margin-left: 50px;
+}
+.payment-bank-img{
+    display: flex;
+}
+.payment-bank-detail-p{
+    margin-left: 30px;
+}
+.payment-img-align{
+      display: flex;
+    justify-content: center;
+}
+.pay-qr{
+    width: 400px;
+    height: 400px;
+    padding-top: 10px;
+}
+.payment-detail{
+    display: block;
+    text-align: center;
+}
+.form-pay-align{
+    display: flex;
+    justify-content: center;
+}
+.form-payment{
+    display: block;
+    margin-left: 100px;
+}
+.form-payment-con{
+    display: block;
+    padding-bottom: 30px;
+}
+.form-payment-con input{
+    width: 400px;
+    height: 30px;
+}
+
+.form-input-recipe{
+    display: block;
+    margin-bottom: 50px;
+}
+.senddatapay-butt{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.senddatapay-butt button{
+    display: flex;
+    justify-content: center;
+    width:300px;
+    height: 40px;
+    background-color: #f07935;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}

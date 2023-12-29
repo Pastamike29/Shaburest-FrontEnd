@@ -1,0 +1,26 @@
+.footer{
+    width: 100%;
+background-color: #ea7521;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+.footer-section{
+margin: 10px;
+    background-color: #ea7521;
+}
+.footer-links{
+    display: flex;
+    gap: 90px;
+}
+.footer-link-div {
+    color: white;
+}
+.foot-logo{
+    width: 90px;
+    height: 90px;
+}
+.footer-copy{
+    width: 100%;
+}

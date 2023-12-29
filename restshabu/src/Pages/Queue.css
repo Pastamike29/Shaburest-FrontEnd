@@ -1,0 +1,157 @@
+.book-menu{ 
+    background: url(../Compo//Assets/mapbackground.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    margin-top: 0;
+    gap: 20px;   
+    padding-top: 120px;
+    padding-bottom: 0px;
+}
+.form-booktable span{
+    color: black;
+    font-size:20px;
+}
+.form-booktable input,.form-booktable select{
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 0.625rem ;
+}
+
+.booktable-contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+.booktable-butt{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.resmap-img{
+    padding-top: 50px;
+    width:100%;
+}
+.box-book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: chartreuse;
+}
+.map-booktable{
+    max-width: auto;
+    width: 90%;
+   margin: 0 auto;
+   padding-bottom: 30px;
+}
+.map-content{
+    margin: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+.left-map-book{
+    width: 100%;
+}
+.left-map-book h3{
+    font-size: 25px;
+}
+.right-map-book{
+    width: 100%;
+    background-color: white;
+}
+.box-contain{
+    padding-top: 30px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.right-map-book h3{
+    font-size: 25px;
+}
+.can-butt{
+    background-color: crimson;
+    border: 2px solid black;
+    border-radius: 0.625rem ;
+    color: white;
+    cursor: pointer;
+    width: 90px;
+    height: auto;
+}
+.book-butt{
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 0.625rem ;
+    width: 90px;
+    height: auto;
+    color: white;
+    cursor: pointer;
+}
+.dot-state{
+    padding-top:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.dot-state span{
+height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+.dot-green{
+    background-color: chartreuse;
+}
+.dot-red{
+    background-color: red;
+}
+.dot-yellow{
+    background-color: yellow;
+}
+.info-book{
+    display: grid;
+    border-radius: 10px;
+    background-color: #f07935;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 40px 0 #00000030;
+}
+.grid-head{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;  
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 40px 0 #00000030;
+  
+}
+.grid-data{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px; 
+  border: 0.5px solid black;
+}
+.date-input-container {
+    position: relative;
+  }
+  
+  .placeholder-text {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    color: #aaa; /* Placeholder text color */
+    pointer-events: none;
+  }
+  .grid-data p:nth-child(even) {
+    background-color: #dddddd;
+  }
+  

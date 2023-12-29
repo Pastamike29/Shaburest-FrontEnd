@@ -1,0 +1,33 @@
+.user-head{
+    background: url(../Compo//Assets/mapbackground.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.user-position{
+    align-items: center;
+    margin: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  border: 0.5px solid black;
+  background-color: white;
+}
+.user-position-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-position-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.backto-butt{
+    color:white ;
+    background-color:#f07935;
+    font-size: 15px;
+    margin-bottom: 30px;
+}

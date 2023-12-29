@@ -1,0 +1,30 @@
+.shopcat-img{
+    padding-top: 100px;
+    width:auto;
+    height: 30rem;
+}
+.shopcat-indexsort{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.shopcat-indexsort h1{  
+    font-size: 30px;
+}
+.shopcat-indexsort hr{
+    width:60%;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #f07935;
+}
+.shopcat-product{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 80px;
+    border: none;
+    cursor: pointer;
+}
+

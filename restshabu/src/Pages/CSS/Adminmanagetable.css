@@ -1,0 +1,26 @@
+.admin-contain{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+}
+.SideMenuAndPagecontain{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.align-table-adminmange{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.table-wrapper-manage{
+     display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 50px 0px 0px;
+    font-size: 1rem;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}

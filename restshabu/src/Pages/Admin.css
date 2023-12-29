@@ -1,0 +1,79 @@
+.admin-contain{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 500vh;
+    background-image: url('../Compo/Assets/—Pngtree—delicious\ hot\ pot\ simple\ black_1122597.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+    
+.SideMenuAndPagecontain{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+.Title-dash-align{
+    text-align: left;
+   }
+.table-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+.admin-table-con{
+    background-color:white;
+    display: block;
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px #ccc;
+    border-radius: 10px;
+   margin: auto;
+    overflow-x: auto;
+}
+.admin-table-con thead{
+    background-color: #ccc;
+    color: #222;
+}
+.admin-table-con th, .admin-table-con td{
+    padding: 0.8rem;
+}
+.admin-table-con td{
+    border-top: 0.5px solid #ddd ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.admin-table-con tbody tr:hover{
+    background-color: #eee;
+}
+.actions{
+    display: flex;
+    justify-content: space-around;
+}
+.actions svg{
+    cursor: pointer;
+}
+
+.delete-btn-admin{
+    color: #e10d05;
+}
+.Linktobook{
+    padding: 4px;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+    color: black;
+
+}
+.align-table-adminmange{
+    padding: 30px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}

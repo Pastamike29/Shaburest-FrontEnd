@@ -1,0 +1,23 @@
+.admin-contain{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+}
+.SideMenuAndPagecontain{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.select-admin-value{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+}
+.align-table-adminmange{
+    padding: 30px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}

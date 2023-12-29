@@ -1,0 +1,36 @@
+.admin-navbar{
+ width: auto;
+ height:auto;
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+ padding: 4px 30px 4px 20px;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+ background-color:#ed7117;
+}
+.admin-navbar-contain{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+}
+.admin-menu-deco{
+    color: white;
+}
+.loginbutt{
+    width: 6.25rem;
+    height: 2.188rem;
+    outline: none;
+    border:1px solid #ea843b;
+    border-radius: 0.625rem;
+    font-size: 1.125rem;
+    font-weight: 100;
+    cursor: pointer;
+
+}
+.loginbutt:hover{
+    background-color: #d7d2d2;
+}

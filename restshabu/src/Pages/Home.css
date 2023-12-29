@@ -1,0 +1,125 @@
+@font-face{
+    font-family: Imported;
+    src: url(../Font/Prompt-ExtraLight.ttf);
+  }
+  *{
+    font-family: Imported;
+  }
+.Slider-con{
+    padding-top: 9.375rem;}
+.promos-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625px;
+    padding: 1.25rem;
+}
+.promos-head h1{
+    color:  black;
+    font-size:1.875rem;
+}
+.promos-head hr{
+    width:60%;
+    height:0.375rem;
+    border-radius: 0.625rem;
+    background-color: #f07935;
+}
+.promos-item{
+    margin-top: 1.875rem;
+    display: flex;
+    gap: 1.875rem;
+}
+.promos-deal{
+    width:100%;
+    display: block;
+   background: #f07935;
+   margin-bottom: 1.25rem;
+   border: 0.3rem solid #f07935;
+}
+.promos-deal-head h1{
+    color: black;
+    margin-bottom: 0;
+   font-size: 1.75rem;
+}
+.promos-deal-head p{
+    color: black;
+    margin: 0.313rem;
+   font-size: 0.938rem;
+}
+.promos-butt{
+    font-size:1.375rem;
+    color: white;
+     background: #950101;
+     box-shadow: 3px 3px 5px -2px black;
+     margin-bottom: 1.25rem;
+     cursor: pointer;
+}
+.promos-butt:hover{
+    background-color: rgb(208, 71, 50);
+}
+.strength{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+    background-color: white;
+}
+.strength-item{
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem ;
+    gap: 3.125rem;  
+    cursor: pointer;
+}
+.strength-item img{
+    width: auto;
+    height: 153.82px;
+    background: #f6f4f4;
+}
+.strength-item img:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.menu{
+    background-color: white;
+}
+.menu-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.menu-head h1{
+    color:  black;
+    font-size: 30px;
+}
+.menu-head hr{
+    width:60%;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #f07935;
+}
+.menu-head img{
+    width: 30rem;
+    height: 20rem;
+    margin-bottom: 10px;
+}
+.menu-butt{
+   width: 200px;
+    font-size:22px;
+    color: white;
+    box-shadow: 0px 1px 3px -2px black;
+background: #950101;
+     border-radius: 10px;
+     margin-bottom: 20px;
+     cursor: pointer;
+}
+.menu-butt:hover{
+    background-color: rgb(208, 71, 50);
+}
+.seed-container {
+    margin-top: 20px;
+  }
+.generateRandomSeed{
+    margin-top: 20px; 
+}
